@@ -44,7 +44,9 @@ hra vytvorená pomocou JAVAFX
 
 Táto hra začala ako jednoduchý semestrálny projekt, ale ako som na nej pracoval, stále som nachádzal nové veci, ktoré by sa dali pridať a urobiť hru zábavnejšou. Pôvodný plán bol udržať ju veľmi jednoduchú, takže kód nie je úplne optimalizovaný, keďže hra sa nakoniec stala o niečo väčšou, než sa očakávalo.
 
+#
 video z hry (bude doplnené)
+#
 
 Vypracoval: Ondrej Babinský
 Projekt: Proj24-J1 - Moorhuhn
