@@ -1,7 +1,7 @@
 Vypracoval: Ondrej Babinský
 Projekt: Proj24-J1 - Moorhuhn
 
-Spustite kliknutím RUN v maine
+Hra sa spúšťa kliknutím RUN v maine, ale treba naimportovať javaFX, čo môže chvíľu trvať.
 
 
 Vypracované celé hlavné zadanie:
