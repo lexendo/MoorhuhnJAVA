@@ -1,0 +1,94 @@
+.button {
+    -fx-background-color: #8B4513;
+    -fx-text-fill: #F5F5F5;
+    -fx-border-color: #A0522D;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #A0522D;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0.3, 0, 3);
+    -fx-rotate: 2;
+}
+
+
+.danger-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: wheat;
+    -fx-effect: dropshadow(gaussian, rgba(255,0,0,0.7), 15, 0, 0, 0);
+    -fx-opacity: 0.9;
+}
+
+.text-field {
+    -fx-font-size: 22px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-background-color: #f8f4e1;
+    -fx-border-color: #deb887;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-text-fill: #5a3e1b;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+.text-field:focused {
+    -fx-border-color: #a0522d;
+    -fx-border-width: 2.5px;
+}
+
+
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(to top, #ff5400, #ff8d00);
+    -fx-background-radius: 3;
+}
+
+.progress-bar .track {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-background-radius: 3;
+}
+
+
+
+#achievementsIcon {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.2, 0, 0);
+    -fx-transition: all 0.3s ease;
+}
+
+#achievementsIcon:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 20, 0.4, 0, 0);
+}
+
+.trophyImage {
+    -fx-effect: dropshadow(gaussian, rgba(218, 165, 32, 0.3), 10, 0.0, 0, 0);
+    -fx-cursor: hand;
+    transition: all 0.3s ease;
+}
+
+.trophyImage:hover {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+    -fx-effect: dropshadow(gaussian, rgba(218, 165, 32, 0.8), 20, 0.3, 0, 0);
+}
+
+
+.label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #f4f4f2;
+    -fx-font-family: "Arial Rounded MT Bold", sans-serif;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    -fx-padding: 10;
+    -fx-background-color: rgba(139, 69, 19, 0.6);
+    -fx-background-radius: 10;
+    -fx-text-alignment: center;
+}
+
+#achievementNameLabel {
+    -fx-font-size: 36px;
+}
+

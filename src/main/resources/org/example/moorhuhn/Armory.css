@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Fonts/Orbitron.ttf');
+}
+
+.button {
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 22px;
+    -fx-background-color: #505050;
+    -fx-text-fill: #E0E0E0;
+    -fx-border-color: #686868;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #686868;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0.3, 0, 3);
+}
+
+.text-field {
+    -fx-font-size: 22px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-background-color: #383838;
+    -fx-border-color: #686868;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-text-fill: #D3D3D3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+.text-field:focused {
+    -fx-border-color: #A9A9A9;
+    -fx-border-width: 2.5px;
+}
+.label {
+    -fx-font-family: "Orbitron", Arial, sans-serif;
+    -fx-text-fill: #D3D3D3;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 15, 0.1, 0, 0);
+    -fx-padding: 10;
+}
+
+#weaponNameLabel {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(25, 25, 25, 0.75);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-text-alignment: center;
+}
+
+#weaponInfoLabel {
+    -fx-font-size: 20px;
+    -fx-background-color: rgba(25, 25, 25, 0.65);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+#weaponCost {
+    -fx-font-size: 30px;
+    -fx-text-fill: #EEDD82;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+
+}
+
+#moneyLabel {
+    -fx-font-size: 30px;
+    -fx-text-fill: #EEDD82;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+
+}
+
+.button-buy {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-color: #367B37;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);
+}
+
+.button-buy:hover {
+    -fx-background-color: #5AD75F;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0.3, 0, 3);
+}
+
+.button-equip {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-border-color: #1976D2;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);
+}
+
+.button-equip:hover {
+    -fx-background-color: #64B5F6;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0.3, 0, 3);
+}

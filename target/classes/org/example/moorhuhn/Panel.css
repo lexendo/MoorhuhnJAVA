@@ -1,0 +1,78 @@
+.end-game-panel {
+    -fx-background-color: rgba(44, 30, 30, 0.85);
+    -fx-padding: 40;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-color: #d4af37;
+    -fx-border-width: 3;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 5);
+}
+
+.end-game-message {
+    -fx-font-size: 56px;
+    -fx-text-fill: #d4af37;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Georgia';
+    -fx-text-alignment: center;
+}
+
+.end-game-score {
+    -fx-font-size: 56px;
+    -fx-text-fill: #fffae6;
+    -fx-font-family: 'Courier New';
+    -fx-text-alignment: center;
+}
+
+.end-game-nickname {
+    -fx-font-size: 56px;
+    -fx-text-fill: #ffda47;
+    -fx-font-family: 'Comic Sans MS';
+    -fx-text-alignment: center;
+}
+.split-pane .split-pane-divider {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+
+.button {
+    -fx-background-color: #8B4513;
+    -fx-text-fill: #F5F5F5;
+    -fx-border-color: #A0522D;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #A0522D;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0.3, 0, 3);
+}
+
+
+.danger-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: wheat;
+    -fx-effect: dropshadow(gaussian, rgba(255,0,0,0.7), 15, 0, 0, 0);
+    -fx-opacity: 0.9;
+}
+
+.text-field {
+    -fx-font-size: 22px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-background-color: #f8f4e1;
+    -fx-border-color: #deb887;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-text-fill: #5a3e1b;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+.text-field:focused {
+    -fx-border-color: #a0522d;
+    -fx-border-width: 2.5px;
+}

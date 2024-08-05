@@ -1,0 +1,5 @@
+Name:IsBought:IsEquipped:Cost:Description:MaxAmmo:ReloadTime
+Desert Eagle:true:true:0:A reliable pistol with outstanding power.:7:1.500000
+Johny's Shotgun:false:false:20000:Discharge a brutal barrage of lead that tears through close enemies, spreading havoc like wild stormwaves.:5:2.300000
+Inferno Firethrower:false:false:100000:Unleash a fiery tempest that engulfs enemies in a scorching embrace, ideal for annihilating clusters of adversaries.:1:3.500000
+Supergalactic Obliterator:false:false:999999:Harness the raw energy of the cosmos to emit devastating blasts that vaporize everything within the blink of an eye.:1:1.500000
